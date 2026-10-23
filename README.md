@@ -18,7 +18,7 @@ Across the analyzed organization (**1,470 employees**), baseline attrition stand
 
 ##  Data Architecture & Star Schema Modeling
 
-The source dataset (IBM HR Analytics Attrition dataset, 1,470 rows × 35 columns) originally presented a flattened single-table structure containing mixed dimensional attributes and transactional metrics. To optimize VertiPaq engine performance and ensure strict reporting governance, the dataset was refactored into a Kimball-standard **Star Schema** via Power Query.
+The source dataset (Kaggle - IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)) originally presented a flattened single-table structure containing mixed dimensional attributes and transactional metrics. To optimize VertiPaq engine performance and ensure strict reporting governance, the dataset was refactored into a Kimball-standard **Star Schema** via Power Query.
 
 <img width="1075" height="665" alt="Star Schema" src="https://github.com/user-attachments/assets/f1c3ba27-12b2-4dfe-8b2b-c8138b72d52d" />
 
